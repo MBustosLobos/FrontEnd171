@@ -1,0 +1,14 @@
+.barra_principal{
+    background-color: black;
+}
+.row{
+    padding-top: 30px;
+    padding-left: 100px;
+}
+#titulo_grilla{
+    padding-top: 55px;
+    text-align: center;
+}
+.segunda_grilla{
+    background-color: #E0E0E0;
+}
