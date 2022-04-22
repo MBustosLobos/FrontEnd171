@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso Ideal</title>
+    <link rel="stylesheet" href="Css/Estilo.css">
+    <script src="Javascript/Script1.js" lang="javascript"></script>
+</head>
+
+<body>
+    <!-- Titulos -->
+    <div id="cont_titulos">
+        <h1>Calculando peso Ideal</h1>
+        <hr>
+        <H2 class="titulo2">Ingrese los datos solicitados</H2>
+    </div>
+    <!-- Contenedor del Formulario -->
+    <div id="cont_formulario">
+        <!-- Tabla de ingreo de datos -->
+        <form action="form1">
+            <table id="tabla1" border="1">
+                <tr>
+                    <td id="tdizq"> Edad</td>
+                    <td> <input type="text" id="txt_edad"> </td>
+                </tr>
+                <tr>
+                    <td id="tdizq"> Peso Actual</td>
+                    <td> <input type="text" id="txt_peso_actual"> </td>
+                </tr>
+                <!-- Botón -->
+                <tr>
+                    <td id="tdizq"> </td>
+                    <td> <input type="button" value="Calcular" onclick="calcularPesoIdeal();"></td>
+                </tr>
+
+            </table>
+        </form>
+        <!-- Contenedores de resultado-->
+        <div id="cnt_resultado_texto"></div>       
+        <div id="cnt_resultado_imagen"></div>
+
+        
+    </div>
+    
+</body>
+ 
+</html>

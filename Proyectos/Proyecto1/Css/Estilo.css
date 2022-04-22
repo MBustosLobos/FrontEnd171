@@ -1,0 +1,25 @@
+body{
+    background-color: aqua;
+}
+#cont_formulario{
+    text-align: center;
+    text-decoration: double;
+}
+#tabla1{
+    background-color: aliceblue;
+    margin-left:41%;
+}
+#cont_titulos{
+    text-align: center;
+}
+#tdizq{
+    background-color: red;
+    color: yellow;
+}
+#cont_titulos{
+    background-color: black;
+    color: white;
+}
+.titulo2{
+    color: green;
+}
