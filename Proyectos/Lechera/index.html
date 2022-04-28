@@ -12,13 +12,13 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="css/css.css">
 </head>
 
 <body>
     <!-- Contenedor principal-->
     <div id="cont_principal">
-        
+
         <!-- Contenedor del Carrusel de imágenes-->
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <!--Barra de navegación-->
@@ -26,23 +26,24 @@
                 <nav class="navbar navbar-light bg-light">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
-                            <img src="img/6593719_animal_cow_farm_milk_icon.png" alt="" width="48" height="40"
+                            <img src="img/6593719_animal_cow_farm_milk_icon.png" width="48" height="40"
                                 class="d-inline-block align-text-top">
                             Lechera Araucanía
                         </a>
                     </div>
                 </nav>
             </div>
+
             <!-- Inicio del carrusel-->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/quesos-listeria.jpg" class="d-block w-100" width="1366" height="768">
+                    <img src="img/quesos-listeria.jpg" class="d-block w-75">
+                </div>
+                <div id="crema" class="carousel-item">
+                    <img src="img/crema-batida-chantilli-copia-1024x512.jpg" class="d-block w-75">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/crema-batida-chantilli-copia-1024x512.jpg" class="d-block w-100" height="1366" width="768">
-                </div>
-                <div class="carousel-item">
-                    <img src="..." class="d-block w-100" alt="...">
+                    <img src="img/flan-de-leche.jpg" class="d-block w-75">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
@@ -56,6 +57,102 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
+        <!-- Regla horizontal para dividir segmentos-->
+        <hr style="color: white;">
+
+        <!-- Título 1-->
+        <H1 id="titulo1">Productos artesanales</H1>
+
+        <!--Inicio de los 3 grid con las 3 card -->
+        <div class="container">
+            <div id="grid" class="row">
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Crema-de-leche.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Cremas</h5>
+                            <p class="card-text">
+                                <li>Crema artesanal pequeña (100 ml): $650</li>
+                                <li>Crema artesanal mediana (200 ml): $1000</li>
+                                <li> Crema artesanal grande (300 ml): $1350</li>
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/cheesecake.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Postres</h5>
+                            <p class="card-text">
+                                <li> Cheese Cake artesanal: $1500</li>
+                                <li>Yogurt artesanal: $1000</li>
+                                <li>Flan artesanal: $1000</li>
+                                <li>Leche nevada: $750</li>
+                                <li>Leche Asada: $750</li>
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/quesoartesanal.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Quesos</h5>
+                            <p class="card-text">
+                                <li>Queso Mantecoso: $10000</li>
+                                <li>Quesillo: $7500 </li>
+                                <li>Queso Gauda: $10000</li>
+                                <li>Queso de cabra: $9500</li>
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr style="color: white;">
+        <H2 id="titulo2"> Suscríbete para que te llegue información nueva acerca de produtos</H2>
+        <!--Grids con formulario e información adicional-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <form>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Ingresa tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Apellidos</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2"
+                                placeholder="Ingresa tus apellidos">
+                        </div>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput3" class="form-label">Correo</label>
+                            <input type="email" class="form-control" id="formGroupExampleInput3"
+                                placeholder="Ingresa tu Email">
+                        </div>
+                        <a href="#" class="btn btn-primary">Suscribirse</a>
+                    </form>
+                </div>
+                <div id="grid2_col2" class="col">
+                    <p>
+                        <h3>Contáctanos</h3>    
+                        +56 9 7894 5623                   
+                        <br> Diego de almagro
+                        <br> 1542
+                        <br> Ciudad de Temuco<br>
+                        <br> Horario de atención de Lunes a Viernes
+                        <br> de 9:00 a 20:00 horas
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </body>
 

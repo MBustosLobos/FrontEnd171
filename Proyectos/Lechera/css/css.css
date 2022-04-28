@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+}
+.carousel-item{
+    background-color: black;
+    margin-bottom: 25px ;
+    padding: 25px,25px,25px,25px;
+    
+}
+#grid{
+    margin-left: 75px;
+    padding-top: 35px;
+
+}
+#titulo1{
+    text-align: center;
+    color: white;
+}
+#titulo2{
+    text-align: center;
+    color: white;
+}
+.carousel-inner{
+    padding-left: 285px;
+}
+.form-label{
+    color: white;
+}
+#grid2_col2{
+    text-align: left;
+    padding-top: 20px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 20px;
+}
