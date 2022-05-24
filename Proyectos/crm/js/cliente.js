@@ -69,7 +69,15 @@ function obtenerIdEliminacion(){
     const urlParams = new URLSearchParams(queryString);
     //Buscamos el ID del cliente
     const p_id_cliente = urlParams.get('id');
-    //Mostramos el ID recibido
-    alert("ID recibido "+ p_id_cliente);
+    //invocamos función para obtener datos del cliente a eliminar
+    obtenerDatosEliminacion(p_id_cliente);
+    
 
+}
+
+function obtenerDatosEliminacion(id_cliente){
+    alert("Cliente a consultar: "+id_cliente);
+    //Efctyar reqyest a API para consultar datos
+    //del cliente http://frontend171.com/api/cliente/<id_cliente>
+    
 }
